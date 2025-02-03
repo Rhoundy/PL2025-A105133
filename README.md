@@ -3,7 +3,9 @@
 ## 📌 Identificação
 - **Nome:** Pedro Afonso Guerra
 - **Número de Aluno:** A105133
-- **Foto:** ![GitHub Profile](https://github.com/Rhoundy.png)
+- **Foto:**
+
+    ![GitHub Profile](https://github.com/Rhoundy.png)
 
 ## 📂 Sobre este Repositório
 Este repositório contém os TPC da cadeira de **Processamento de Linguagens**.

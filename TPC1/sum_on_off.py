@@ -16,7 +16,7 @@ def gen_combs(word):
 def sum_on_off(file):
     isOn = True
     on = 0
-    with open(file, 'r') as f:
+    with open(file, 'r', encoding='utf-8') as f:
         lines = f.readlines()
         for line in lines:
             i = 0
@@ -26,11 +26,11 @@ def sum_on_off(file):
                     cmdOn = line[i:i+2]
                     cmdOff = line[i:i+3]
                     if cmdOn in on_off_combs:
-                            isOn = True
-                            i += 2
+                        isOn = True
+                        i += 2
                     elif cmdOff in on_off_combs:
-                            isOn = False
-                            i += 3
+                        isOn = False
+                        i += 3
                     else:
                         i += 1
                 elif line[i] in numbers and isOn:

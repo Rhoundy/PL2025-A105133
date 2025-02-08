@@ -2,7 +2,7 @@
 
 ## Autor
 
-Pedro Afonso Guerra (ID: A105133)
+Pedro Afonso Guerra, A105133)
 
 ## Resumo
 
